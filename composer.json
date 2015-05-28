@@ -1,0 +1,15 @@
+{
+	"name": "hardraid/magenposer",
+	"description": "Magento installers for Composer",
+	"type": "composer-plugin",
+	"license": "MIT",
+	"autoload": {
+		"psr-0": {"Magenposer\\Composer": "src/"}
+	},
+	"extra": {
+		"class": "Magenposer\\Composer\\Plugin"
+	},
+	"require": {
+		"composer-plugin-api": "1.0.0"
+	}
+}
